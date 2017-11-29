@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 MAINTAINER Danilo Luiz Rheinheimer
 
 RUN apt-get update 
-RUN apt-get install -y nano 
+RUN apt-get install -y nano wget
 
 RUN mkdir /opt/app
 COPY run.sh /opt/app

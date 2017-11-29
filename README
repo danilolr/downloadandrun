@@ -1,0 +1,6 @@
+A (very) simple container to download and run some executable.
+
+To use define the enviromment variables :
+
+EXEC_NAME : executable file name
+EXEC_URL : url to download the file
